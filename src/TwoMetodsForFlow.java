@@ -34,6 +34,7 @@ class SecondMetod implements Runnable {
     }
 }
 
+
 public class TwoMetodsForFlow {
     public static void main(String args[]) throws IOException {
         Thread fm = new FirstMetod();
@@ -52,6 +53,6 @@ public class TwoMetodsForFlow {
                 out.println("Error on MAIN Flow");
             }
         }
-
+ВОТ ОРИГИНАЛ
     }
 }
