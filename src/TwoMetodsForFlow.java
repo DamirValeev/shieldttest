@@ -6,11 +6,10 @@ class FirstMetod extends Thread{
     @Override
     public void run() {
         super.run();
-        out.println("FirstMetod");
         try {
             for (int i=0; i<100; i++) {
                 out.print("FirstMetod");
-                Thread.sleep(150);
+                Thread.sleep(400);
             }
         }
         catch (InterruptedException object) {
@@ -22,21 +21,37 @@ class FirstMetod extends Thread{
 class SecondMetod implements Runnable {
     @Override
     public void run() {
-        out.print("FirstMetod");
+        out.print("SecondMetod");
         try {
-            Thread.sleep(150);
+            for (int i = 0; i < 100; i++) {
+                out.println("SecondMetod");
+                Thread.sleep(300);
+            }
         }
         catch (InterruptedException object) {
-            out.println("ErrorOnFirstFlow");
+            out.println("ErrorOnSecondFlow");
         }
     }
-
 }
 
 public class TwoMetodsForFlow {
-    static FirstMetod firstMetod;
     public static void main(String args[]) throws IOException {
-        firstMetod = new FirstMetod();
-        firstMetod.start();
+        Thread fm = new FirstMetod();
+        fm.start();
+
+        SecondMetod sm = new SecondMetod();
+        Thread forSM = new Thread(sm);
+        forSM.start();
+
+        for(int j=0; j<10; j++){
+            out.println("Main METOD finish first");
+            try {
+                Thread.sleep(800);
+            }
+            catch (InterruptedException ob) {
+                out.println("Error on MAIN Flow");
+            }
+        }
+
     }
 }
