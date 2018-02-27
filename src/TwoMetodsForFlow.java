@@ -19,6 +19,7 @@ class FirstMetod extends Thread{
     }
 }
 
+
 class SecondMetod implements Runnable {
     @Override
     public void run() {
