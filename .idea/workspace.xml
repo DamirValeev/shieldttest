@@ -30,8 +30,8 @@
       <file leaf-file-name="feb27LessonJava_1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/feb27LessonJava_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="753">
+              <caret line="90" column="28" lean-forward="false" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#145#146#0" expanded="true" />
@@ -82,8 +82,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="7" />
+    <option name="y" value="64" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -339,7 +340,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="7" y="64" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -625,8 +626,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/feb27LessonJava_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="753">
+          <caret line="90" column="28" lean-forward="false" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#145#146#0" expanded="true" />
