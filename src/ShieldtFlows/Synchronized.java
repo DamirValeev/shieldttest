@@ -5,7 +5,7 @@ import static java.lang.System.out;
 class SumArray {
     private int sum;
 
-    synchronized int sumArray(int nums[]) {
+    int sumArray(int nums[]) {
         sum = 0;
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
@@ -36,17 +36,25 @@ class MyThread2 implements Runnable {
     public void run() {
         int sum;
         out.println(thrd.getName() + " - запуск");
-        answer = sa.sumArray(a);
+        synchronized (sa) {                     //синхронизированный блок
+            answer = sa.sumArray(a);
+        }
         out.println("СУММА для " + thrd.getName() + " : " + answer);
         out.println(thrd.getName() + " - Завершение");
     }
 }
-
 
 public class Synchronized {
     public static void main(String args[]) {
         int a[] = {1, 2, 3, 4, 5};
         MyThread2 mt1 = new MyThread2("ПОТОК #1 ", a);
         MyThread2 mt2 = new MyThread2("ПОТОК #2 ", a);
+        try {
+            mt1.thrd.join();
+            mt2.thrd.join();
+        } catch (InterruptedException obj) {
+            out.println("ERROr");
+        }
+        out.println("Завершение основного потока");
     }
 }
