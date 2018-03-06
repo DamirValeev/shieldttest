@@ -20,5 +20,16 @@ public class lesson7march1 {
 //        MyRoom.allAREA(MyRoom);
         MyRoom.allAREAWithOutDoorAndWindow();
         out.print(MyRoom.allAREAWithOutDoorAndWindow());
+        out.println();
+
+        WorkMan wm = new WorkMan("Valeev", "prog", 30000, 1990);
+        wm.upSalary();
+        wm.yearsWM();
+
+        out.println();
+
+        Fraction fr1 = new Fraction(8,25);
+        fr1.fracInProc();
+        fr1.fracSum();
     }
 }
