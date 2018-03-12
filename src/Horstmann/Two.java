@@ -10,22 +10,25 @@ class Employee {
     private double salary;
     private String name;
     static int cool = 0;
-
     {
         cool++;
     }
-
     static {
         out.println("Класс использовался впервые ");
     }
 
     Employee() {
-        salary = 200;
+        salary = 2000;
     }
 
     Employee(String str) {
         this();
         this.name = str;
+    }
+
+    Employee(String str, double salary) {
+        this.name = str;
+        this.salary = salary;
     }
 
     public void raiseSalary(double byPercent) {
@@ -41,12 +44,16 @@ class Employee {
         return (double)(salary);
     }
 
-    public void getInfo(Employee obj) {
-        out.println(obj.salary + " " + obj.name);
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public static void swap(Employee x, Employee y) { //метод содержит ссылки и не
-        Employee temp = x;                              //не поменяет местами ссылки на объекты
+        Employee temp = x;                            //не поменяет местами ссылки на объекты
         x = y;
         y = temp;
     }
@@ -54,6 +61,13 @@ class Employee {
 
 class Manager extends Employee {
     private double bonus;
+    private int year;
+
+    Manager(String name, double salary, int year) {
+        super(name);
+        super.setSalary(salary);
+        this.year = year;
+    }
 
     public void setBonus(double bonus) {
         this.bonus = bonus;
@@ -64,18 +78,21 @@ class Manager extends Employee {
         bonus += super.getSalary();
         return bonus;
     }
+
 }
 
 public class Two {
     public static void main(String[] args) {
-        Employee harry = new Employee("ds");
-        Employee baddy = new Employee("строка");
-        baddy.getInfo(harry);
-        out.println(Employee.cool);
-        out.println();
-        Manager mark = new Manager();
-        out.println(mark.getSalary());
-        mark.setBonus(2000);
-        out.println(mark.getSalary());
+        Manager boss = new Manager("ВАСЯбля", 100500, 6666);
+        Employee[] staff = new Employee[3];
+        staff[0] = boss;
+        staff[1] = new Employee("lox1");
+        staff[2] = new Employee("lox2");
+        for (Employee x:staff
+             ) {
+            out.println(x.getSalary() + " " + x.getName());
+        }
+
+
     }
 }
