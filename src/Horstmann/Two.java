@@ -63,9 +63,16 @@ class Manager extends Employee {
     private double bonus;
     private int year;
 
-    Manager(String name, double salary, int year) {
+    Manager (){
+        super();
+    }
+    Manager(String str, double zp){
+        super(str, zp);
+    }
+    Manager(String name, double salary, double bonus, int year) {
         super(name);
         super.setSalary(salary);
+        this.bonus = bonus;
         this.year = year;
     }
 
@@ -83,15 +90,28 @@ class Manager extends Employee {
 
 public class Two {
     public static void main(String[] args) {
-        Manager boss = new Manager("ВАСЯбля", 100500, 6666);
-        Employee[] staff = new Employee[3];
-        staff[0] = boss;
-        staff[1] = new Employee("lox1");
-        staff[2] = new Employee("lox2");
-        for (Employee x:staff
+//        Manager boss = new Manager("ВАСЯбля", 100500, 6666);
+//        Employee[] staff = new Employee[3];
+//        staff[0] = boss;
+//        staff[1] = new Employee("lox1");
+//        staff[2] = new Employee("lox2");
+//        for (Employee x:staff
+//             ) {
+//            out.println(x.getSalary() + " " + x.getName());
+//        }
+        Manager mg2 = new Manager("VAS9", 15000);
+        Employee[] mans = new Employee[3];
+        mans[0] = mg2;
+        mans[1] = new Employee("1111");
+        mans[2] = new Employee("222");
+        for (Employee obj:mans
              ) {
-            out.println(x.getSalary() + " " + x.getName());
+            out.println(obj.getName() + " " + obj.getSalary());
         }
+        Employee empl3 = new Manager("Тестовый МАНАГЕр", 87);
+        Manager mg3 = (Manager)mg2;
+//        Manager mg4 = (Manager)mans[1];
+
 
 
     }
