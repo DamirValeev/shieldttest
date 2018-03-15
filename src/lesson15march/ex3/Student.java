@@ -36,18 +36,21 @@ public class Student {
 
     @Override
     public String toString() {
-        out.print(firstName + "\t" + lastName
-                + "\t" + patrName + "\t" + facultative + "\t"
-                + course + "\t" + minimalRateLast + "\t");
+        out.print(firstName + "\t\t\t" + lastName
+                + "\t\t\t" + patrName + "\t\t\t" + facultative + "\t\t\t"
+                + course + "\t\t\t" + minimalRateLast + "\t\t\t");
+        out.println();
         return super.toString();
     }
 }
 
 class StudentContract extends Student {
-    Boolean paymentOrNot;
+    boolean paymentOrNot;
 
-    StudentContract(String f, String l, String p, String fac, int c, float min) {
+    StudentContract(String f, String l, String p,
+                    String fac, int c, float min, boolean pay) {
         super(f, l, p, fac, c, min);
+        this.paymentOrNot = pay;
     }
 
     int upCourse() {
@@ -61,4 +64,9 @@ class StudentContract extends Student {
         return 0;
     }
 
+    @Override
+    public String toString() {
+        out.print(paymentOrNot + "\t\t\t");
+        return super.toString();
+    }
 }
