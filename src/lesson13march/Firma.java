@@ -4,10 +4,20 @@ import static java.lang.System.out;
 
 public class Firma {
     Employers[] empl;
+    static Employers[] yearTen;
     static final int NOW = 2018;
 
     void addEmp(Employers e, int x) {
         empl[x] = e;
+    }
+
+    Employers[] removeEmpl(int index) {
+        for (int i = index; i < empl.length - 1; i++) {
+            empl[i] = empl[i + 1];
+        }
+        Employers[] temp = new Employers[empl.length - 1];
+        System.arraycopy(empl, 0, temp, 0, empl.length - 1);
+        return temp;
     }
 
     public Employers minSalary() {
@@ -38,11 +48,11 @@ public class Firma {
         return temp;
     }
 
-    void inFo() {
-        for (int i = 0; i < empl.length; i++) {
-            if (empl[i] != null) {
-                out.println(empl[i].name + "\t " + empl[i].yearMake + "\t "
-                        + empl[i].stage + "\t " + empl[i].salary);
+    void inFo(Employers[] obj) {
+        for (int i = 0; i < obj.length; i++) {
+            if (obj[i] != null) {
+                out.println(obj[i].name + "\t " + obj[i].yearMake + "\t "
+                        + obj[i].stage + "\t " + obj[i].salary);
             }
         }
     }
@@ -69,8 +79,22 @@ public class Firma {
                 temp += (Firma.NOW - empl[i].yearMake);
             }
         }
-        temp/=j;
+        temp /= j;
         return temp;
+    }
+
+    static Employers[] giveMeTen(Employers[] obj) {
+        int k = 0;
+        yearTen = new Employers[obj.length];
+        for (int i = 0; i < obj.length; i++) {
+            if (obj[i] != null) {
+                if (obj[i].stage > 10) {
+                    yearTen[k] = obj[i];
+                    k++;
+                }
+            }
+        }
+        return yearTen;
     }
 
 
