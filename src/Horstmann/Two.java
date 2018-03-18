@@ -82,7 +82,7 @@ class Manager extends Employee {
 
     @Override
     public double getSalary() {
-        bonus += super.getSalary();
+//        bonus += super.getSalary();
         return bonus;
     }
 
@@ -90,27 +90,20 @@ class Manager extends Employee {
 
 public class Two {
     public static void main(String[] args) {
-//        Manager boss = new Manager("ВАСЯбля", 100500, 6666);
-//        Employee[] staff = new Employee[3];
-//        staff[0] = boss;
-//        staff[1] = new Employee("lox1");
-//        staff[2] = new Employee("lox2");
-//        for (Employee x:staff
-//             ) {
-//            out.println(x.getSalary() + " " + x.getName());
-//        }
-        Manager mg2 = new Manager("VAS9", 15000);
-        Employee[] mans = new Employee[3];
-        mans[0] = mg2;
-        mans[1] = new Employee("1111");
-        mans[2] = new Employee("222");
-        for (Employee obj:mans
+        Manager boss = new Manager("ВАСЯбля", 100500, 6666, 29);
+        Employee[] staff = new Employee[3];
+        staff[0] = boss;
+        staff[1] = new Employee("lox1");
+        staff[2] = new Employee("lox2");
+        for (Employee x:staff
              ) {
-            out.println(obj.getName() + " " + obj.getSalary());
+            out.println(x.getSalary() + " " + x.getName());
         }
-        Employee empl3 = new Manager("Тестовый МАНАГЕр", 87);
-        Manager mg3 = (Manager)mg2;
-//        Manager mg4 = (Manager)mans[1];
+
+
+
+
+
 
 
 

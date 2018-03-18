@@ -28,6 +28,15 @@ class MyThread implements Runnable {
     }
 }
 
+class  MyThread_2 extends Thread {
+    @Override
+    public void run() {
+        for (int i = 0; i < 10; i++) {
+            out.println(i);
+        }
+    }
+}
+
 public class ExtebdThread {
     public static void main(String args[]) {
         MyThread MT1 = new MyThread("MT111");

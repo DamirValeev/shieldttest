@@ -1,3 +1,5 @@
+import lesson17march.ex2.Student;
+
 import static java.lang.System.out;
 
 class test
@@ -17,6 +19,5 @@ class test
 
 public class nov23 {
     public static void main(String args[]){
-
     }
 }
