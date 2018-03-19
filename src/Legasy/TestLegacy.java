@@ -8,8 +8,8 @@ class A {
     }
 
     void hi(){
-        out.println("Metod class A");
-    }
+        out.println("Metod class A");            
+    }                                                  
 }
 
 class B extends A {
