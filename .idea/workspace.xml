@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bce3e22-2436-4adb-9082-72f9184581e5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson20march/ex1_9_exception.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson20march/example2/MainEx2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson20march/example3/MainEx3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson20march/example3/Number.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Mounth.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson20march/example3/ex_3_2/Circle.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/MounthException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Year.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson20march/example3/ex_3_2/Dot.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/lesson20march/Main.java" afterPath="$PROJECT_DIR$/src/lesson20march/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20march/example3/MainEx3.java" afterPath="$PROJECT_DIR$/src/lesson20march/example3/MainEx3.java" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20march/example3/Number.java" afterPath="$PROJECT_DIR$/src/lesson20march/example3/Number.java" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Main.java" afterPath="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Mounth.java" afterPath="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Mounth.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,15 +29,32 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="Number.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/Number.java">
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#125#126#0" expanded="true" />
-                    <element signature="e#155#156#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="204">
+                  <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Mounth.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Mounth.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Year.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Year.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -47,12 +63,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="MainEx3.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/MainEx3.java">
+          <file leaf-file-name="MounthException.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex3_3/MounthException.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="340">
+                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#134#135#0" expanded="true" />
+                    <element signature="e#178#179#0" expanded="true" />
+                    <element signature="e#207#208#0" expanded="true" />
+                    <element signature="e#232#233#0" expanded="true" />
+                    <element signature="e#305#306#0" expanded="true" />
+                    <element signature="e#366#367#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -81,9 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tryWithResource.java" />
-        <option value="$PROJECT_DIR$/src/manyFlow.java" />
-        <option value="$PROJECT_DIR$/src/wekkend.java" />
         <option value="$PROJECT_DIR$/src/getPOsitiveInt.java" />
         <option value="$PROJECT_DIR$/src/studentsInClassAge.java" />
         <option value="$PROJECT_DIR$/src/SeriesDemo.java" />
@@ -127,18 +147,22 @@
         <option value="$PROJECT_DIR$/src/lesson20march/Main.java" />
         <option value="$PROJECT_DIR$/src/lesson20march/ex1_9_exception.java" />
         <option value="$PROJECT_DIR$/src/lesson20march/example2/MainEx2.java" />
-        <option value="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Main.java" />
-        <option value="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Year.java" />
-        <option value="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Mounth.java" />
-        <option value="$PROJECT_DIR$/src/lesson20march/example3/MainEx3.java" />
         <option value="$PROJECT_DIR$/src/lesson20march/example3/Number.java" />
+        <option value="$PROJECT_DIR$/src/lesson20march/example3/MainEx3.java" />
+        <option value="$PROJECT_DIR$/src/lesson20march/example3/ex_3_2/Dot.java" />
+        <option value="$PROJECT_DIR$/src/lesson20march/example3/ex_3_2/MounthExceprion.java" />
+        <option value="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Main.java" />
+        <option value="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/MounthException.java" />
+        <option value="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Mounth.java" />
+        <option value="$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Year.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1914" />
+    <option name="x" value="2075" />
+    <option name="y" value="-13" />
     <option name="width" value="1377" />
-    <option name="height" value="739" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -198,7 +222,18 @@
               <item name="my_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lesson20march" type="462c0819:PsiDirectoryNode" />
-              <item name="ex1_9_exception.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="example3" type="462c0819:PsiDirectoryNode" />
+              <item name="ex3_3" type="462c0819:PsiDirectoryNode" />
+              <item name="Mounth.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="my_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson20march" type="462c0819:PsiDirectoryNode" />
+              <item name="example3" type="462c0819:PsiDirectoryNode" />
+              <item name="ex3_3" type="462c0819:PsiDirectoryNode" />
+              <item name="MounthException.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="my_java" type="b2602c69:ProjectViewProjectNode" />
@@ -650,7 +685,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521485809753</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="21.03(2)">
+      <created>1521640380295</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1521640380296</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -669,7 +711,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21961933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21156661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22673032" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -734,7 +776,8 @@
     <MESSAGE value="19.03(1)" />
     <MESSAGE value="19.03(2)" />
     <MESSAGE value="19.03(3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.03(3)" />
+    <MESSAGE value="21.03(2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.03(2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,27 +797,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/march1lessonJava2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/feb27LessonJava_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson3March3/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson3March3/WorkMan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1096,6 +1118,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/MainEx3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex_3_2/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1104,46 +1134,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Year.java">
+    <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex_3_2/Dot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex_3_2/MounthExceprion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex3_3/MounthException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Mounth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="357">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/ex3_3/Year.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/MainEx3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson20march/example3/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
