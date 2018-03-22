@@ -48,6 +48,7 @@ class EasyFraction extends Number {
             return getNum() / znamenatel;
     }
 
+
 }
 
 class BadDelitel extends IllegalArgumentException {
@@ -61,4 +62,9 @@ class BadDelitel extends IllegalArgumentException {
     public Number getNumber() {
         return number;
     }
+}
+
+
+class RunEx extends Exception {
+
 }
