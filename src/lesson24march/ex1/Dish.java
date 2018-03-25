@@ -1,12 +1,17 @@
 package lesson24march.ex1;
 
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Scanner;
+
 public class Dish {
     private String name;
     private double price;
 
-    Dish(String name) {
+    Dish(String name, double price) {
         this.name = name;
-        price = 0;
+        this.price = price;
     }
 
     void setDishPrice(double price) {
@@ -18,5 +23,11 @@ public class Dish {
         return name + " " + price;
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public double getPrice() {
+        return price;
+    }
 }
