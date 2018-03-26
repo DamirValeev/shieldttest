@@ -12,7 +12,7 @@ public class Restaurant {
         menuRestaurant.addDish("Жаркое", 4000);
         menuRestaurant.giveMenu();
 
-        String stopWord = "все";
+        String stopWord = "нет";
         Scanner sc = new Scanner(System.in);
 
         do {
@@ -23,12 +23,14 @@ public class Restaurant {
                 break;
             }
             if(menuRestaurant.contain(dishEnter)) {
-                System.out.println("Такое блюдо есть!");
+                System.out.println("Такое блюдо есть! Что еще?");
+
             } else {
                 System.out.println("Такого блюда Нету!");
             }
 //            dishMenu.choiseYourDish();
         } while(true);
 
+        System.out.println("Ваш заказ на сумму - " + menuRestaurant.getAllPrice());
     }
 }
