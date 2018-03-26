@@ -5,7 +5,7 @@ public class Venicle {
     double maxSpeed;
     double price;
 
-    Venicle(String name, double maxSpeed) {
+    public Venicle(String name, double maxSpeed) {
         this.name = name;
         this.maxSpeed = maxSpeed;
     }

@@ -62,10 +62,4 @@ public class MenuRestaurant {
     public double getAllPrice() {
         return allPrice;
     }
-
-    void str() {
-        Iterator<Dish> test = menuDich.iterator();
-        for (int i = 0; i < menuDich.size(); i++) {
-        }
-    }
 }
