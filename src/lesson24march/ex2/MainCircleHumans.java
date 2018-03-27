@@ -25,6 +25,15 @@ public class MainCircleHumans {
  }
  }
  */
+//circles.remove(2);
+        for (int i = 0; i < circles.size(); i++) {
+            while (circles.get(3)!=null) {
+                circles.remove(2);
+            }
+        }
+
+        System.out.println(circles.size());
+
 
 //        Iterator<HumanForCircle> iterator = circles.iterator();
 //        while (iterator.hasNext()) {
@@ -35,12 +44,10 @@ public class MainCircleHumans {
 //        }
 
 
-
-        for (Iterator<HumanForCircle> iterator = circles.iterator(); iterator.hasNext();) {
-            if (iterator.next().getHumansNumber()==2)
-            iterator.remove();
-        }
-
+//        for (Iterator<HumanForCircle> iterator = circles.iterator(); iterator.hasNext();) {
+//            if (iterator.next().getHumansNumber()==2)
+//            iterator.remove();
+//        }
 
 
 //        for (int i = 0; i < circles.size(); i++) {
@@ -56,7 +63,6 @@ public class MainCircleHumans {
 //                i = 0;
 //            }
 //        }
-
 
 
 //        Comparator<HumanForCircle> circleComparator = new Comparator<HumanForCircle>() {
