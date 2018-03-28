@@ -7,7 +7,14 @@ public class Comand implements Comparable<Comand>{
     int goal;
 
     public int compareTo(Comand c) {
-        return this.name.compareTo(c.name);
+        if (this.country.compareTo(c.country)==0){
+            return 0;
+        }
+        if (this.country.compareTo(c.country)>1) {
+            return 1;
+        }
+        else return -1;
+
     }
 
     Comand(String name, String country, String season, int goal) {
