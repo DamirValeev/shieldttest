@@ -1,5 +1,6 @@
 package lesson27march.ex2;
 
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.TreeSet;
@@ -46,6 +47,9 @@ public class Main {
         while (iterator.hasNext()) {
             System.out.println(iterator.next().getCountry());
         }
+        System.out.println("----------------------------------");
+
+
 
 
     }

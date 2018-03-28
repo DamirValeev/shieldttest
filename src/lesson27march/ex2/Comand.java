@@ -1,27 +1,26 @@
 package lesson27march.ex2;
 
-public class Comand implements Comparable<Comand>{
+import java.util.Comparator;
+
+public class Comand implements Comparable{
     String name;
     String country;
     String season;
     int goal;
-
-    public int compareTo(Comand c) {
-        if (this.country.compareTo(c.country)==0){
-            return 0;
-        }
-        if (this.country.compareTo(c.country)>1) {
-            return 1;
-        }
-        else return -1;
-
-    }
 
     Comand(String name, String country, String season, int goal) {
         this.name = name;
         this.country = country;
         this.season = season;
         this.goal = goal;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if (this.equals(o)){
+            return 0;
+        }
+        else return 1;
     }
 
     public String getName() {
@@ -57,5 +56,23 @@ public class Comand implements Comparable<Comand>{
             return true;
     }
 
-
+    @Override
+    public int hashCode() {
+        int hash = 1;
+        hash = hash * 17 + this.name.hashCode();
+        hash = hash * 31 + this.country.hashCode();
+        return hash;
+    }
+}
+class ComComp implements Comparator<Comand> {
+    @Override
+    public int compare(Comand o1, Comand o2) {
+        if (o1.goal==o2.goal) {
+            return 0;
+        }
+        if (o1.goal>o2.goal) {
+            return 1;
+        }
+        else return -1;
+    }
 }
