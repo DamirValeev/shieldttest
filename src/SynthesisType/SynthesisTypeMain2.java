@@ -26,7 +26,7 @@ class Vehicle2<T> {
     Vehicle2(T ob) {
         this.ob = ob;
     }
-    static void test(Vehicle2<? extends Vehicle> object) {
+    static void test(Vehicle2<? super Vehicle> object) {
 
     }
 }
@@ -47,5 +47,6 @@ public class SynthesisTypeMain2 {
 //        Integer ob1 = 45;
 //        Vehicle2<Integer> strTest = new Vehicle2<>(ob1);
 //        strTest.ob.
+
     }
 }

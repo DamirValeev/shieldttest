@@ -1,9 +1,6 @@
 package lesson27march.ex2;
 
-import java.util.Comparator;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,6 +21,7 @@ public class Main {
 
         TreeSet<Comand> comandsSortName = new TreeSet<>();
         comandsSortName.addAll(hashCommand);
+
         iterator = comandsSortName.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next().getName());
@@ -48,6 +46,7 @@ public class Main {
             System.out.println(iterator.next().getCountry());
         }
         System.out.println("----------------------------------");
+
 
 
 

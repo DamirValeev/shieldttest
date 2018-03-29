@@ -2,7 +2,7 @@ package lesson27march.ex2;
 
 import java.util.Comparator;
 
-public class Comand implements Comparable{
+public class Comand implements Comparable<Comand> {
     String name;
     String country;
     String season;
@@ -16,11 +16,28 @@ public class Comand implements Comparable{
     }
 
     @Override
-    public int compareTo(Object o) {
-        if (this.equals(o)){
+    public int compareTo(Comand c) {
+        if (this.name.compareTo(c.name) == 0) {
             return 0;
         }
-        else return 1;
+        if (this.name.compareTo(c.name) < 0) {
+            return -1;
+        }
+        if (this.country.compareTo(c.country) == 0) {
+            return 0;
+        }
+        if (this.country.compareTo(c.country) < 0) {
+            return -1;
+        }
+        if (this.goal==c.goal) {
+            return 0;
+        }
+        if (this.goal<c.goal) {
+            return -1;
+        }
+        return 1;
+
+
     }
 
     public String getName() {
@@ -37,42 +54,25 @@ public class Comand implements Comparable{
 
     @Override
     public boolean equals(Object obj) {
-        if (this==obj) {
+        if (this == obj) {
             return true;
         }
         if (!(obj instanceof Comand)) {
             return false;
         }
-        Comand c = (Comand)obj;
+        Comand c = (Comand) obj;
         if (!(this.name.equals(c.name))) {
             return false;
         }
-        if (this.goal!=c.goal) {
+        if (this.goal != c.goal) {
             return false;
         }
-        if (!this.country.equals(c.country)){
+        if (!this.country.equals(c.country)) {
             return false;
-        }else
+        } else
             return true;
     }
 
-    @Override
-    public int hashCode() {
-        int hash = 1;
-        hash = hash * 17 + this.name.hashCode();
-        hash = hash * 31 + this.country.hashCode();
-        return hash;
-    }
+
 }
-class ComComp implements Comparator<Comand> {
-    @Override
-    public int compare(Comand o1, Comand o2) {
-        if (o1.goal==o2.goal) {
-            return 0;
-        }
-        if (o1.goal>o2.goal) {
-            return 1;
-        }
-        else return -1;
-    }
-}
+

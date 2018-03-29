@@ -42,7 +42,6 @@ public class SynthesisTypeMain {
 //        vehicleOb.showType();
         Gen<String, Integer> strAndInt = new Gen<>("строка", 34);
         strAndInt.showType();
-
 //        Pair<Number, Number> x = new Pair<Number, Number>();
     }
 }
