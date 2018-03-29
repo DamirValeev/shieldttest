@@ -10,7 +10,7 @@ public class Main {
         hashCommand.add(new Comand("com3", "canada", "winter", 300));
         hashCommand.add(new Comand("com4", "russia", "summer", 4000));
         hashCommand.add(new Comand("com5", "italy", "outhem", 500));
-        hashCommand.add(new Comand("com1", "usa", "winter", 100));
+        hashCommand.add(new Comand("com1", "us2a", "winter", 10021));
 
         Iterator<Comand> iterator = hashCommand.iterator();
         while (iterator.hasNext()) {
@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println("------------------");
 
-        TreeSet<Comand> comandsSortName = new TreeSet<>();
+        TreeSet<Comand> comandsSortName = new TreeSet<>(new Comand.sortName());
         comandsSortName.addAll(hashCommand);
 
         iterator = comandsSortName.iterator();
@@ -29,7 +29,7 @@ public class Main {
 
         System.out.println("-----------------------------------");
 
-        TreeSet<Comand> comandsSortGoal = new TreeSet<>();
+        TreeSet<Comand> comandsSortGoal = new TreeSet<>(new Comand.sortGoal());
         comandsSortGoal.addAll(hashCommand);
         iterator = comandsSortGoal.iterator();
 
@@ -38,7 +38,7 @@ public class Main {
         }
         System.out.println("-----------------------------------");
 
-        TreeSet<Comand> comandsSortCountry = new TreeSet<>();
+        TreeSet<Comand> comandsSortCountry = new TreeSet<>(new Comand.sortCount());
         comandsSortCountry.addAll(hashCommand);
         iterator = comandsSortCountry.iterator();
 
@@ -47,9 +47,14 @@ public class Main {
         }
         System.out.println("----------------------------------");
 
+        TreeSet<Comand> comandsSortByTest = new TreeSet<>();
+        comandsSortByTest.addAll(hashCommand);
+        iterator = comandsSortByTest.iterator();
 
-
-
+        while (iterator.hasNext()) {
+            iterator.next().toString();
+        }
+        System.out.println("----------------------------------");
 
     }
 }

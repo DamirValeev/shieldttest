@@ -16,29 +16,16 @@ public class Comand implements Comparable<Comand> {
     }
 
     @Override
-    public int compareTo(Comand c) {
-        if (this.name.compareTo(c.name) == 0) {
-            return 0;
+    public int compareTo(Comand o) {
+        int len = this.name.compareTo(o.name);
+        if (len == 0) {
+                return 0;
         }
-        if (this.name.compareTo(c.name) < 0) {
-            return -1;
-        }
-        if (this.country.compareTo(c.country) == 0) {
-            return 0;
-        }
-        if (this.country.compareTo(c.country) < 0) {
-            return -1;
-        }
-        if (this.goal==c.goal) {
-            return 0;
-        }
-        if (this.goal<c.goal) {
-            return -1;
-        }
-        return 1;
-
-
+        if (len > 0) {
+            return 1;
+        } else return -1;
     }
+
 
     public String getName() {
         return name;
@@ -50,6 +37,12 @@ public class Comand implements Comparable<Comand> {
 
     public int getGoal() {
         return goal;
+    }
+
+    @Override
+    public String toString() {
+        System.out.println(getName() + " " + getCountry() + " " + getGoal());
+        return getName() + " " + getCountry() + " " + getGoal();
     }
 
     @Override
@@ -73,6 +66,45 @@ public class Comand implements Comparable<Comand> {
             return true;
     }
 
+    static class sortName implements Comparator<Comand> {
+        @Override
+        public int compare(Comand o1, Comand o2) {
+            int len = o1.name.compareTo(o2.name);
+            if (len == 0) {
+                return 0;
+            }
+            if (len > 0) {
+                return 1;
+            }
+            return -1;
+        }
+    }
 
+    static class sortGoal implements Comparator<Comand> {
+        @Override
+        public int compare(Comand o1, Comand o2) {
+            int len = o1.goal - o2.goal;
+            if (len == 0) {
+                return 0;
+            }
+            if (len > 0) {
+                return 1;
+            }
+            return -1;
+        }
+    }
+    static class sortCount implements Comparator<Comand> {
+        @Override
+        public int compare(Comand o1, Comand o2) {
+            int len = o1.country.compareTo(o2.country);
+            if (len == 0) {
+                return 0;
+            }
+            if (len > 0) {
+                return 1;
+            }
+            return -1;
+        }
+    }
 }
 
