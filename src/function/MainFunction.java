@@ -30,7 +30,15 @@ public class MainFunction {
             }
             return result;
         };
-        System.out.println("наим делитель 93 это - " + blockF.blockf(-93));
+        System.out.println("наименьший делитель 93 это - " + blockF.blockf(33));
+
+        SomeTest<Integer> someTest = (n, m) -> (n % m == 0);
+        someTest.test(4,45);
+        String str = "Тестируемая строка";
+        SomeTest<String> someTest1 = (n,m) -> (n.indexOf(m)!=-1);
+        if (someTest1.test("проверить это", "это")){
+            System.out.println("someTest1.test(\"проверить это\", \"это\")::" + someTest1.test("проверить это", "это"));
+        }
 
     }
 }

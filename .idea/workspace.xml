@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bce3e22-2436-4adb-9082-72f9184581e5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/function/BlockF.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/function/Function.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/function/Function1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/function/MainFunction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/function/SomeTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/function/MainFunction.java" afterPath="$PROJECT_DIR$/src/function/MainFunction.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,28 +27,8 @@
           <file leaf-file-name="MainFunction.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/function/MainFunction.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Function.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/function/Function.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BlockF.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/function/BlockF.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+                <state relative-caret-position="515">
+                  <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -60,11 +38,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Function1.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Function1.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/function/Function1.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="51">
                   <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SomeTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/function/SomeTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -99,8 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Horstmann/Polimorfizm/Main.java" />
-        <option value="$PROJECT_DIR$/src/Horstmann/Two.java" />
         <option value="$PROJECT_DIR$/src/lesson13march/Firma.java" />
         <option value="$PROJECT_DIR$/src/lesson13march/Main_Employers.java" />
         <option value="$PROJECT_DIR$/src/Reader/Reader.java" />
@@ -149,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/function/Function.java" />
         <option value="$PROJECT_DIR$/src/function/Function1.java" />
         <option value="$PROJECT_DIR$/src/function/BlockF.java" />
+        <option value="$PROJECT_DIR$/src/function/SysFunction.java" />
+        <option value="$PROJECT_DIR$/src/function/SomeTest.java" />
         <option value="$PROJECT_DIR$/src/function/MainFunction.java" />
       </list>
     </option>
@@ -603,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522432864234</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="2.04(1)">
+      <created>1522661428964</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1522661428964</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -694,7 +689,8 @@
     <MESSAGE value="26(2)" />
     <MESSAGE value="27(3)" />
     <MESSAGE value="31(1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="31(1)" />
+    <MESSAGE value="2.04(1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.04(1)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -714,20 +710,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nov23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson20march/example2/MainEx2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson20march/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -1057,10 +1039,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/function/SysFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/function/SomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/function/MainFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="515">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
