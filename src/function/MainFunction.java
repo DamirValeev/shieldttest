@@ -33,7 +33,10 @@ public class MainFunction {
         System.out.println("наименьший делитель 93 это - " + blockF.blockf(33));
 
         SomeTest<Integer> someTest = (n, m) -> (n % m == 0);
-        someTest.test(4,45);
+        if (someTest.test(45,45)){
+            System.out.println("someTest.test(45,45):: " + someTest.test(45,45));
+        }
+        ;
         String str = "Тестируемая строка";
         SomeTest<String> someTest1 = (n,m) -> (n.indexOf(m)!=-1);
         if (someTest1.test("проверить это", "это")){
