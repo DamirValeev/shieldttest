@@ -34,5 +34,6 @@ class LambdaArgumentDemo {
             return result;
         }, inStr);
         System.out.println("Строка с обращенным регистром букв: " + outStr);
+
     }
 }
